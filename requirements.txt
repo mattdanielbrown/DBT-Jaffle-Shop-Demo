@@ -4,3 +4,5 @@ jafgen~=0.3.1
 pre-commit~=3.0.4
 sqlfluff-templater-dbt~=2.0.0a5
 sqlfluff~=2.0.0a5
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
